@@ -497,7 +497,12 @@ transform: translatey(15%);
 padding-left: 30px;
 }
 
-.side-by-side__trait {
+.side-by-side__trait1 {
+    max-width: 15vw;
+    text-align: left;
+    padding-right: 10px;
+}
+.side-by-side__trait2 {
     max-width: 15vw;
     text-align: left;
     padding-right: 10px;
@@ -996,3 +1001,109 @@ padding-top: 10vh;
     background-color: white;
     padding: 6px;
 }
+
+@media (max-width: 768px) {
+   .nav__logo {
+    scale: 50%;
+   }
+
+   .nav__primary--text {
+    font-size: .8em;
+   padding: 6px;
+   }
+
+   .nav__links--container {
+    scale: 60%;
+   }
+
+    .features__container{
+        scale: 60%;
+        transform: translateX(-10%);
+        transform: translateY(-30%);
+    }
+
+    .features__h5 {
+        transform: translatex(30%);
+    }
+
+    .features__h2 {
+        transform: translateX(30%);
+    }
+
+    .email__input--button {
+        scale: 80%;
+        transform: translateX(-120%);
+    }
+    
+    .landing__page--customers {
+       transform: translatey(-50%);
+    }
+
+    .landing__img--container {
+        padding-bottom: 30vh;
+    }
+
+.side-by-side__container--one {
+    scale: 80%;
+    transform: translateY(-50%);
+    padding-left: 5vw;
+}
+
+.side-by-side__btn--text {
+    font-size: 1em;
+    padding: 3px;
+}
+
+.side-by-side__principals--container {
+    scale: 70%;
+}
+
+.side-by-side__trait2 {
+    padding-left: 4vw;
+}
+
+.side-by-side__principals-img--container {
+    transform: translateY(-350%);
+}
+
+.testimonials__container {
+    padding-top: 50vh;
+}
+.faq__h2 {
+    transform: translateX(9%);
+}
+
+.footer__logo {
+    scale: 80%;
+    padding-top: 2vh;
+}
+
+.footer__logo--text {
+    padding-bottom: 2vh;
+}
+
+    h1{
+        font-size: 28px;
+    }
+
+    .row {
+        width: clalc(100%/2);
+    }
+
+    .para {
+        font-size: 18px;
+    }
+
+}
+/* I abused the transform translate command
+so much that im not sure i could format this 
+for a phone without rewriting the entire code.
+
+I'm not sure what I was doing here, but I like
+to think you can really see the point where 
+I understand that I was making a mess of my
+code and changed it all lol 
+
+@media (max-width: 480px) {
+}
+*/
